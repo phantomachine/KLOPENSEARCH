@@ -1,0 +1,352 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 10">
+<link rel=File-List href="ifs_files/filelist.xml">
+<link rel=Edit-Time-Data href="ifs_files/editdata.mso">
+<link rel=OLE-Object-Data href="ifs_files/oledata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+x\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:LastAuthor>IFS Online</o:LastAuthor>
+  <o:LastSaved></o:LastSaved>
+  <o:Version>10.3311</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:DownloadComponents/>
+  <o:LocationOfComponents HRef="file:///D:\"/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+.font8
+	{color:black;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Tahoma;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font9
+	{color:black;
+	font-size:8.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Tahoma;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding:0px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	color:white;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:left;
+	border:.5pt solid black;
+	background:#666699;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl25
+	{mso-style-parent:style0;
+	color:black;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Scientific;
+	text-align:left;
+	border:.5pt solid black;
+	background:white;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl26
+	{mso-style-parent:style0;
+	color:blue;
+	font-style:italic;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:right;
+	border:.5pt solid black;
+	background:white;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl27
+	{mso-style-parent:style0;
+	color:black;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Scientific;
+	text-align:right;
+	border:.5pt solid black;
+	background:white;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl28
+	{mso-style-parent:style0;
+	color:black;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:right;
+	border:.5pt solid black;
+	background:white;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl29
+	{mso-style-parent:style0;
+	color:black;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:Fixed;
+	text-align:right;
+	border-top:none;
+	border-right:.5pt solid black;
+	border-bottom:.5pt solid black;
+	border-left:none;
+	background:white;
+	mso-pattern:auto none;
+	white-space:normal;}
+-->
+</style>
+<![if !supportAnnotations]><style id="dynCom" type="text/css"><!-- --></style>
+
+<script language="JavaScript"><!--
+
+function msoCommentShow(com_id,anchor_id) {
+	if(msoBrowserCheck()) {
+	   c = document.all(com_id);
+	   a = document.all(anchor_id);
+	   if (null != c) {
+		var cw = c.offsetWidth;
+		var ch = c.offsetHeight;
+		var aw = a.offsetWidth;
+		var ah = a.offsetHeight;
+		var x = a.offsetLeft;
+		var y = a.offsetTop;
+		var el = a;
+		while (el.tagName != "BODY") {
+		   el = el.offsetParent;
+		   x = x + el.offsetLeft;
+		   y = y + el.offsetTop;
+		   }
+		var bw = document.body.clientWidth;
+		var bh = document.body.clientHeight;
+		var bsl = document.body.scrollLeft;
+		var bst = document.body.scrollTop;
+		if (x + cw + ah/2 > bw + bsl && x + aw - ah/2 - cw >= bsl ) {
+		   c.style.left = x + aw - ah / 2 - cw;
+		}
+		else {
+		   c.style.left = x + ah/2;
+		}
+		if (y + ch + ah/2 > bh + bst && y + ah/2 - ch >= bst ) {
+	 	   c.style.top = y + ah/2 - ch;
+		}
+		else {
+		   c.style.top = y + ah/2;
+		}
+		c.style.visibility = "visible";
+	   }
+	}
+}
+
+function msoCommentHide(com_id) {
+	if(msoBrowserCheck()) {
+	  c = document.all(com_id)
+	  if (null != c) {
+	    c.style.visibility = "hidden";
+	    c.style.left = "-10000";
+	    c.style.top = "-10000";
+	  }
+	}
+}
+
+function msoBrowserCheck() {
+ ms=navigator.appVersion.indexOf("MSIE");
+ vers = navigator.appVersion.substring(ms+5, ms+6);
+ ie4 = (ms>0) && (parseInt(vers) >=4);
+ return ie4
+}
+
+if (msoBrowserCheck()) {
+document.styleSheets.dynCom.addRule(".msocomspan1","position:relative");
+document.styleSheets.dynCom.addRule(".msocomspan2","position:absolute");
+document.styleSheets.dynCom.addRule(".msocomspan2","left:-1.5ex");
+document.styleSheets.dynCom.addRule(".msocomspan2","width:2ex");
+document.styleSheets.dynCom.addRule(".msocomspan2","height:0.5em");
+document.styleSheets.dynCom.addRule(".msocomanch","font-size:0.5em");
+document.styleSheets.dynCom.addRule(".msocomanch","color:red");
+document.styleSheets.dynCom.addRule(".msocomhide","display: none");
+document.styleSheets.dynCom.addRule(".msocomtxt","visibility: hidden");
+document.styleSheets.dynCom.addRule(".msocomtxt","position: absolute");
+document.styleSheets.dynCom.addRule(".msocomtxt","top:-10000");
+document.styleSheets.dynCom.addRule(".msocomtxt","left:-10000");
+document.styleSheets.dynCom.addRule(".msocomtxt","width: 33%");
+document.styleSheets.dynCom.addRule(".msocomtxt","background: infobackground");
+document.styleSheets.dynCom.addRule(".msocomtxt","color: infotext");
+document.styleSheets.dynCom.addRule(".msocomtxt","border-top: 1pt solid threedlightshadow");
+document.styleSheets.dynCom.addRule(".msocomtxt","border-right: 2pt solid threedshadow");
+document.styleSheets.dynCom.addRule(".msocomtxt","border-bottom: 2pt solid threedshadow");
+document.styleSheets.dynCom.addRule(".msocomtxt","border-left: 1pt solid threedlightshadow");
+document.styleSheets.dynCom.addRule(".msocomtxt","padding: 3pt 3pt 3pt 3pt");
+document.styleSheets.dynCom.addRule(".msocomtxt","z-index: 100");
+}
+
+// -->
+</script>
+<![endif]><!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>IFS Online</x:Name>
+    <x:WorksheetOptions>
+     <x:Selected/>
+     <x:DoNotDisplayGridlines/>
+     <x:LeftColumnVisible>0</x:LeftColumnVisible>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveRow>0</x:ActiveRow>
+       <x:ActiveCol>0</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>6660</x:WindowHeight>
+  <x:WindowWidth>13275</x:WindowWidth>
+  <x:WindowTopX>0</x:WindowTopX>
+  <x:WindowTopY>120</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+<table border=1 cellspacing=0 cellpadding=0>
+<tr>
+  <td class="xl24" align=left><b>DATASOURCE</td>  <td class="xl24" align=left><b>DATATYPE</td>  <td class="xl24" align=left><b>NATIONAL_DESCRIPTOR</td>  <td class="xl24" align=left><b>CDROM_SCALE</td>  <td class="xl24" align=left><b>UNITS</td>  <td class="xl24" align=left><b>SCALE</td>  <td class="xl24" align=left><b>COUNTRYNAME</td>  <td class="xl24" align=left><b>DATABASE</td>  <td class="xl24" align=left><b>SERIESCODE</td>  <td class="xl24" align=left><b>DESCRIPTOR</td>  <td class="xl24" align=left><b>Q1 1973</td>  <td class="xl24" align=left><b>Q2 1973</td>  <td class="xl24" align=left><b>Q3 1973</td>  <td class="xl24" align=left><b>Q4 1973</td>  <td class="xl24" align=left><b>Q1 1974</td>  <td class="xl24" align=left><b>Q2 1974</td>  <td class="xl24" align=left><b>Q3 1974</td>  <td class="xl24" align=left><b>Q4 1974</td>  <td class="xl24" align=left><b>Q1 1975</td>  <td class="xl24" align=left><b>Q2 1975</td>  <td class="xl24" align=left><b>Q3 1975</td>  <td class="xl24" align=left><b>Q4 1975</td>  <td class="xl24" align=left><b>Q1 1976</td>  <td class="xl24" align=left><b>Q2 1976</td>  <td class="xl24" align=left><b>Q3 1976</td>  <td class="xl24" align=left><b>Q4 1976</td>  <td class="xl24" align=left><b>Q1 1977</td>  <td class="xl24" align=left><b>Q2 1977</td>  <td class="xl24" align=left><b>Q3 1977</td>  <td class="xl24" align=left><b>Q4 1977</td>  <td class="xl24" align=left><b>Q1 1978</td>  <td class="xl24" align=left><b>Q2 1978</td>  <td class="xl24" align=left><b>Q3 1978</td>  <td class="xl24" align=left><b>Q4 1978</td>  <td class="xl24" align=left><b>Q1 1979</td>  <td class="xl24" align=left><b>Q2 1979</td>  <td class="xl24" align=left><b>Q3 1979</td>  <td class="xl24" align=left><b>Q4 1979</td>  <td class="xl24" align=left><b>Q1 1980</td>  <td class="xl24" align=left><b>Q2 1980</td>  <td class="xl24" align=left><b>Q3 1980</td>  <td class="xl24" align=left><b>Q4 1980</td>  <td class="xl24" align=left><b>Q1 1981</td>  <td class="xl24" align=left><b>Q2 1981</td>  <td class="xl24" align=left><b>Q3 1981</td>  <td class="xl24" align=left><b>Q4 1981</td>  <td class="xl24" align=left><b>Q1 1982</td>  <td class="xl24" align=left><b>Q2 1982</td>  <td class="xl24" align=left><b>Q3 1982</td>  <td class="xl24" align=left><b>Q4 1982</td>  <td class="xl24" align=left><b>Q1 1983</td>  <td class="xl24" align=left><b>Q2 1983</td>  <td class="xl24" align=left><b>Q3 1983</td>  <td class="xl24" align=left><b>Q4 1983</td>  <td class="xl24" align=left><b>Q1 1984</td>  <td class="xl24" align=left><b>Q2 1984</td>  <td class="xl24" align=left><b>Q3 1984</td>  <td class="xl24" align=left><b>Q4 1984</td>  <td class="xl24" align=left><b>Q1 1985</td>  <td class="xl24" align=left><b>Q2 1985</td>  <td class="xl24" align=left><b>Q3 1985</td>  <td class="xl24" align=left><b>Q4 1985</td>  <td class="xl24" align=left><b>Q1 1986</td>  <td class="xl24" align=left><b>Q2 1986</td>  <td class="xl24" align=left><b>Q3 1986</td>  <td class="xl24" align=left><b>Q4 1986</td>  <td class="xl24" align=left><b>Q1 1987</td>  <td class="xl24" align=left><b>Q2 1987</td>  <td class="xl24" align=left><b>Q3 1987</td>  <td class="xl24" align=left><b>Q4 1987</td>  <td class="xl24" align=left><b>Q1 1988</td>  <td class="xl24" align=left><b>Q2 1988</td>  <td class="xl24" align=left><b>Q3 1988</td>  <td class="xl24" align=left><b>Q4 1988</td>  <td class="xl24" align=left><b>Q1 1989</td>  <td class="xl24" align=left><b>Q2 1989</td>  <td class="xl24" align=left><b>Q3 1989</td>  <td class="xl24" align=left><b>Q4 1989</td>  <td class="xl24" align=left><b>Q1 1990</td>  <td class="xl24" align=left><b>Q2 1990</td>  <td class="xl24" align=left><b>Q3 1990</td>  <td class="xl24" align=left><b>Q4 1990</td>  <td class="xl24" align=left><b>Q1 1991</td>  <td class="xl24" align=left><b>Q2 1991</td>  <td class="xl24" align=left><b>Q3 1991</td>  <td class="xl24" align=left><b>Q4 1991</td>  <td class="xl24" align=left><b>Q1 1992</td>  <td class="xl24" align=left><b>Q2 1992</td>  <td class="xl24" align=left><b>Q3 1992</td>  <td class="xl24" align=left><b>Q4 1992</td>  <td class="xl24" align=left><b>Q1 1993</td>  <td class="xl24" align=left><b>Q2 1993</td>  <td class="xl24" align=left><b>Q3 1993</td>  <td class="xl24" align=left><b>Q4 1993</td>  <td class="xl24" align=left><b>Q1 1994</td>  <td class="xl24" align=left><b>Q2 1994</td>  <td class="xl24" align=left><b>Q3 1994</td>  <td class="xl24" align=left><b>Q4 1994</td>  <td class="xl24" align=left><b>Q1 1995</td>  <td class="xl24" align=left><b>Q2 1995</td>  <td class="xl24" align=left><b>Q3 1995</td>  <td class="xl24" align=left><b>Q4 1995</td>  <td class="xl24" align=left><b>Q1 1996</td>  <td class="xl24" align=left><b>Q2 1996</td>  <td class="xl24" align=left><b>Q3 1996</td>  <td class="xl24" align=left><b>Q4 1996</td>  <td class="xl24" align=left><b>Q1 1997</td>  <td class="xl24" align=left><b>Q2 1997</td>  <td class="xl24" align=left><b>Q3 1997</td>  <td class="xl24" align=left><b>Q4 1997</td>  <td class="xl24" align=left><b>Q1 1998</td>  <td class="xl24" align=left><b>Q2 1998</td>  <td class="xl24" align=left><b>Q3 1998</td>  <td class="xl24" align=left><b>Q4 1998</td>  <td class="xl24" align=left><b>Q1 1999</td>  <td class="xl24" align=left><b>Q2 1999</td>  <td class="xl24" align=left><b>Q3 1999</td>  <td class="xl24" align=left><b>Q4 1999</td>  <td class="xl24" align=left><b>Q1 2000</td>  <td class="xl24" align=left><b>Q2 2000</td>  <td class="xl24" align=left><b>Q3 2000</td>  <td class="xl24" align=left><b>Q4 2000</td>  <td class="xl24" align=left><b>Q1 2001</td>  <td class="xl24" align=left><b>Q2 2001</td>  <td class="xl24" align=left><b>Q3 2001</td>  <td class="xl24" align=left><b>Q4 2001</td>  <td class="xl24" align=left><b>Q1 2002</td>  <td class="xl24" align=left><b>Q2 2002</td>  <td class="xl24" align=left><b>Q3 2002</td>  <td class="xl24" align=left><b>Q4 2002</td>  <td class="xl24" align=left><b>Q1 2003</td>  <td class="xl24" align=left><b>Q2 2003</td>  <td class="xl24" align=left><b>Q3 2003</td>  <td class="xl24" align=left><b>Q4 2003</td>  <td class="xl24" align=left><b>Q1 2004</td>  <td class="xl24" align=left><b>Q2 2004</td>  <td class="xl24" align=left><b>Q3 2004</td>  <td class="xl24" align=left><b>Q4 2004</td>  <td class="xl24" align=left><b>Q1 2005</td>  <td class="xl24" align=left><b>Q2 2005</td>  <td class="xl24" align=left><b>Q3 2005</td>  <td class="xl24" align=left><b>Q4 2005</td>  <td class="xl24" align=left><b>Q1 2006</td>  <td class="xl24" align=left><b>Q2 2006</td>  <td class="xl24" align=left><b>Q3 2006</td>  <td class="xl24" align=left><b>Q4 2006</td>  <td class="xl24" align=left><b>Q1 2007</td>  <td class="xl24" align=left><b>Q2 2007</td>  <td class="xl24" align=left><b>Q3 2007</td>  <td class="xl24" align=left><b>Q4 2007</td>
+</tr>
+<tr>
+  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left>Average</td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left>1E-09</td>  <td class="xl25" bgcolor=white align=left>Index number</td>  <td class="xl25" bgcolor=white align=left>Billions</td>  <td class="xl25" bgcolor=white align=left>United States</td>  <td class="xl25" bgcolor=white align=left>IFS</td>  <td class="xl25" bgcolor=white align=left>111..RELZF...</td>  <td class="xl25" bgcolor=white align=left>REER BASED ON ULC</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="155.615">155.615</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="157.683">157.683</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="165.039">165.039</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="169.305">169.305</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="178.348">178.348</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="174.106">174.106</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="166.572">166.572</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="155.651">155.651</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="147.451">147.451</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="140.238">140.238</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="134.486">134.486</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="133.464">133.464</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="126.263">126.263</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="119.893">119.893</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="120.273">120.273</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="113.345">113.345</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="111.171">111.171</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="109.352">109.352</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="114.177">114.177</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="109.4">109.400</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="110.065">110.065</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="113.31">113.310</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="114.26">114.260</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="112.608">112.608</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="109.305">109.305</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="110.85">110.850</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="105.455">105.455</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="101.39">101.390</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="102.531">102.531</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="107.819">107.819</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="106.667">106.667</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="102.222">102.222</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="103.054">103.054</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="102.341">102.341</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="97.5163">97.516</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="102.579">102.579</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="104.456">104.456</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="102.436">102.436</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="104.67">104.670</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="105.538">105.538</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="105.942">105.942</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="103.827">103.827</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="101.046">101.046</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="99.8693">99.869</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="96.5775">96.578</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="91.3963">91.396</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="93.4997">93.500</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="94.1889">94.189</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="94.593">94.593</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="95.7813">95.781</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="95.0921">95.092</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="95.2228">95.223</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="98.0986">98.099</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="99.7267">99.727</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="100.725">100.725</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="103.316">103.316</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="108.378">108.378</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="109.091">109.091</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="110.362">110.362</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="104.789">104.789</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="105.217">105.217</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="107.974">107.974</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="109.4">109.400</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="108.152">108.152</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="114.26">114.260</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="116.292">116.292</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="121.07">121.070</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="123.72">123.720</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="123.458">123.458</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="126.298">126.298</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="124.266">124.266</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="124.73">124.730</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="127.807">127.807</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="123.197">123.197</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="116.922">116.922</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="117.445">117.445</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="114.082">114.082</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="110.85">110.850</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="110.826">110.826</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="108.176">108.176</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="101.212">101.212</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="105.193">105.193</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="105.609">105.609</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="99.5841">99.584</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="96.2567">96.257</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="99.2276">99.228</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="101.901">101.901</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="102.626">102.626</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="103.054">103.054</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="99.2751">99.275</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="98.1343">98.134</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="99.8693">99.869</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="101.545">101.545</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="98.5383">98.538</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="94.8901">94.890</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="90.7546">90.755</td>
+</tr>
+<tr>
+  <td class="xl25" bgcolor=white align=left>1</td>  <td class="xl25" bgcolor=white align=left>Average</td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left>1E-09</td>  <td class="xl25" bgcolor=white align=left>Index number</td>  <td class="xl25" bgcolor=white align=left>Billions</td>  <td class="xl25" bgcolor=white align=left>United States</td>  <td class="xl25" bgcolor=white align=left>IFS</td>  <td class="xl25" bgcolor=white align=left>111..REUZF...</td>  <td class="xl25" bgcolor=white align=left>REER BASED ON RNULC</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28">n.a.</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="136.411">136.411</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="138.675">138.675</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="141.642">141.642</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="143.846">143.846</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="143.429">143.429</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="143.429">143.429</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="143.929">143.929</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="144.096">144.096</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="143.691">143.691</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="142.285">142.285</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="141.225">141.225</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="137.913">137.913</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="127.118">127.118</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="126.093">126.093</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="120.898">120.898</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="119.862">119.862</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="119.671">119.671</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="122.733">122.733</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="120.886">120.886</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="124.282">124.282</td>  <td class="xl26" x:num="124.211">124.211<![if !supportAnnotations]><span class=msocomspan1><span 
+class=msocomspan2 id="_anchor_1"
+onmouseover="msoCommentShow('_com_1','_anchor_1')" 
+onmouseout="msoCommentHide('_com_1')" language=JavaScript><a 
+class=msocomanch href="#_msocom_1" name="_msoanchor_1">[1]</a></span></span><![endif]>
+</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="125.819">125.819</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="120.005">120.005</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="126.129">126.129</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="128.643">128.643</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="136.542">136.542</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="143.906">143.906</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="138.973">138.973</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="143.775">143.775</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="150.244">150.244</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="155.975">155.975</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="156.833">156.833</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="151.138">151.138</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="152.031">152.031</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="156.094">156.094</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="155.88">155.880</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="154.915">154.915</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="157.059">157.059</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="166.115">166.115</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="170.833">170.833</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="179.876">179.876</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="173.359">173.359</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="164.816">164.816</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="154.939">154.939</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="147.468">147.468</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="140.117">140.117</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="134.934">134.934</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="134.183">134.183</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="126.093">126.093</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="121.947">121.947</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="122.543">122.543</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="115.942">115.942</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="114.155">114.155</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="112.558">112.558</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="118.468">118.468</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="113.356">113.356</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="114.119">114.119</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="117.098">117.098</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="117.145">117.145</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="114.643">114.643</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="110.437">110.437</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="109.544">109.544</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="105.659">105.659</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="100.512">100.512</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="100">100.000</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="105.147">105.147</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="106.803">106.803</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="101.787">101.787</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="102.168">102.168</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="101.978">101.978</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="97.9388">97.939</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="102.967">102.967</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="105.993">105.993</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="102.454">102.454</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="104.682">104.682</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="106.267">106.267</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="106.553">106.553</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="103.396">103.396</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="101.525">101.525</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="100.012">100.012</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="97.5337">97.534</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="92.3389">92.339</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="95.1388">95.139</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="94.6503">94.650</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="96.652">96.652</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="97.4622">97.462</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="97.069">97.069</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="97.1286">97.129</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="99.9404">99.940</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="101.346">101.346</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="103.324">103.324</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="104.992">104.992</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="107.876">107.876</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="109.973">109.973</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="111.676">111.676</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="105.445">105.445</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="106.065">106.065</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="108.614">108.614</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="108.364">108.364</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="108.066">108.066</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="113.13">113.130</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="118.563">118.563</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="121.125">121.125</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="123.77">123.770</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="121.101">121.101</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="124.401">124.401</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="123.448">123.448</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="125.986">125.986</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="131.038">131.038</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="126.927">126.927</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="122.507">122.507</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="123.615">123.615</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="119.647">119.647</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="115.894">115.894</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="115.918">115.918</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="107.852">107.852</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="103.157">103.157</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="105.505">105.505</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="103.3">103.300</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="97.7124">97.712</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="97.1166">97.117</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="99.714">99.714</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="100.929">100.929</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="102.228">102.228</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="100.584">100.584</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="96.6162">96.616</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="96.0443">96.044</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="96.3422">96.342</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="96.9856">96.986</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="94.4716">94.472</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="91.8027">91.803</td>  <td class="xl28" style="mso-number-format:'0.000" x:num="87.2513">87.251</td>
+</tr>
+<tr>
+  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>  <td class="xl25" bgcolor=white align=left></td>
+</tr>
+</table>
+
+<div style='mso-element:comment-list'><![if !supportAnnotations]>
+<hr class=msocomhide align=left size=1 width="33%">
+<![endif]>
+
+
+<div style='mso-element:comment'><![if !supportAnnotations]>
+<div id="_com_1" class=msocomtxt
+onmouseover="msoCommentShow('_com_1','_anchor_2')"
+onmouseout="msoCommentHide('_com_1')" language=JavaScript><![endif]>
+<div><![if !supportAnnotations]><a class=msocomhide href="#_msoanchor_1"
+name="_msocom_1">[1]</a><![endif]><!--[if gte mso 9]><xml>
+ <v:shape id="_x0000_s1025" type="#_x0000_t202" style='position:absolute;
+  width:200pt;height:35pt;
+  z-index:2;visibility:hidden' fillcolor="infoBackground [80]" o:insetmode="auto">
+  <v:fill color2="infoBackground [80]"/>
+  <v:shadow on="t" color="black" obscured="t"/>
+  <v:path o:connecttype="none"/>
+  <v:textbox style='mso-direction-alt:auto'/>
+  <x:ClientData ObjectType="Note">
+   <x:MoveWithCells/>
+   <x:SizeWithCells/>
+   <x:AutoFill>False</x:AutoFill>
+   <x:Row>2</x:Row>
+   <x:Column>38</x:Column>
+   <x:Author> Online</x:Author>
+  </x:ClientData
+ </v:shape></xml><![endif]--><![if !vml]><span style='mso-ignore:vglayout'><![endif]>
+<div v:shape="_x0000_s1025" style='padding:.75pt 0pt 0pt .75pt;text-align:left'
+class=shape>Identifies a break in the analytical comparability of data or a change in magnitude</div>
+<![if !vml]></span><![endif]></div>
+<![if !supportAnnotations]></div>
+<![endif]></div>
+</div>
+
+</body>
+</html>
+

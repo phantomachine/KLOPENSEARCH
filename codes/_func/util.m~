@@ -1,0 +1,10 @@
+function [uq] = util(q, ETA2, b, KONSTANT)
+% UTIL.m 
+% Provides isoelastic class of functions
+    
+if ETA2 > 1
+        uq = KONSTANT*(( q + b ).^(1 - ETA2) - b^(1 - ETA2))/(1 - ETA2);
+elseif ETA2 == 1
+        uq = KONSTANT*log(q + b);
+%     end
+% end

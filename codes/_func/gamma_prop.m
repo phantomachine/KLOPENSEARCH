@@ -1,0 +1,14 @@
+function [ gval ] = gamma_prop(q,K,Z,BTHETA,PHI,ETA,b,C)
+
+% GAMMA_PROP.M
+% -------------------------------------------------------------------------
+% "GAMMA" function in proportional bargaining version.
+% BTHETA is bargaining power of buyer.
+% -----------------------------------------------------------------------
+% (c) 2009 - , Timothy Kam. Email: mortheus@gmail.com
+% -----------------------------------------------------------------------
+%
+% See also G_PROP, G_PROP_Q, U_Q, C_K
+
+gval = ((1-BTHETA)*u_q(q,ETA,b,C)/g_prop_q(q,K,Z, BTHETA,PHI,ETA,b,C) )...
+                                                       * c_k (q/Z,K,PHI);

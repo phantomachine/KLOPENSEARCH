@@ -1,0 +1,184 @@
+function [m_elasticity] = m_interest_elasticity(q,qz1,K,H,Z,X,...
+                                                ALFA,OMEGA_I,OMEGA_F,...
+                                                THETA,DELTA,...
+                                                EPSILON,THETA_B,...
+                                                ETA,A,b,B,C,SIGMA,KAPPA,...
+                                                XI,GAMMA,...
+                                                TAU_X,TAU_H,TAU_K,...
+                                                protocol)
+
+% M_INTEREST_ELAST.M
+% -------------------------------------------------------------------------
+% This function produces the money demand interest elasticity from a given
+% monetary model in {PT, PB, NB}.
+%
+% From equilibrium conditions we find the total differential of the system:
+%
+%    [ m11 m12 m13 ]   [ dq ]   [ 1 ]
+%    [ m21 m22 m23 ] * [ dK ] = [ 1 ] * di
+%    [ m21 m22 m23 ]   [ dH ]   [ 0 ]
+%
+% where (q,K,H) are DM-consumption, capital and labor, and i is the nominal
+% interest rate. Let M := {m_ij}, i,j = 1,2,3. Then,
+%
+%    (dq/di, dK/di, dH/di)' = inv(M)* (1, 1, 0)'.
+% 
+% With which, we can then calculate:
+%
+% m_elasticity <-- m_elasticity(dq/di, dK/di, dH/di, (q,K,H); parameters).
+%
+% Requires: COMPECON Toolbox, Miranda and Fackler
+%
+% Input:
+% (q,K,H,Z)     : Candidate values of steady state variables
+% (ALFA,...)    : List of parameters
+% protocol      : String variable, values: 'pt', 'pb' or 'nb', sets the
+%                 state for code to switch to relevant functions for:
+%                   ('pt') price taking; 
+%                   ('pb') prop. bargaining; or 
+%                   ('nb') nash bargaining.
+%
+% -------------------------------------------------------------------------
+% (c) 2010 - , Timothy Kam. Email: mortheus@gmail.com
+% -------------------------------------------------------------------------
+%
+% See also PT_SS, PB_SS, NB_SS
+
+% Preliminaries
+u_qval = u_q(q,ETA,b,C);
+u_qqval = u_q(q,ETA,b,C);
+
+U_Xval = U_X(X,B,GAMMA);
+U_XXval = U_XX(X,B,GAMMA);
+
+F_H = Z*F_h(K,H,ALFA);
+F_K = Z*F_k(K,H,ALFA);
+
+F_HH = Z*F_hh(K,H,ALFA);
+F_HK = Z*F_hk(K,H,ALFA);
+F_KH = F_HK;
+F_KK = Z*F_kk(K,H,ALFA);
+
+switch lower(protocol)
+    case 'pt'
+        % Monetary trades
+        gval        = g(q,K,Z,XI);
+        g_qval      = g_q(q,K,Z,XI);
+        g_kval      = g_k(q,K,Z,XI);
+        g_qqval     = fjac('g_q',[1,1],q,K,Z,XI);
+        g_qkval     = fjac('g_q',[2,1],q,K,Z,XI);
+        gamma_val   = c_k(q/Z,K,XI);
+        gamma_qval  = c_qk(q/Z,K,XI)/Z;
+        gamma_kval  = fjac('c_k',[2,1],q/Z,K,XI)/Z;
+        
+        % Credit trades
+        gammaz_val = c_k(qz1/Z,K,XI);
+        gammaz_kval  = fjac('c_k',[2,1],qz1/Z,K,XI)/Z;
+        
+    case 'pb'
+        % Monetary trades
+        gval        = g_prop(q,K,Z,THETA_B,XI,ETA,b,C);
+        g_qval      = g_prop_q(q,K,Z,THETA_B,XI,ETA,b,C);
+        g_kval      = g_prop_k(q,K,Z,THETA_B,XI);
+        g_qqval     = fjac('g_prop_q',[1,1],q,K,Z,THETA_B,XI,ETA,b,C);
+        g_qkval     = fjac('g_prop_q',[2,1],q,K,Z,THETA_B,XI,ETA,b,C);
+        gamma_val   = (1-THETA_B)*gamma_prop(q,K,Z,THETA_B,XI,ETA,b,C);
+        gamma_qval  = (1-THETA_B)*fjac('gamma_prop',...
+                                            [1,1],...
+                                            q,K,Z,THETA_B,XI,ETA,b,C);
+        gamma_kval  = (1-THETA_B)*fjac('gamma_prop',...
+                                            [2,1],...
+                                            q,K,Z,THETA_B,XI,ETA,b,C);
+                                        
+        % Credit trades
+        gammaz_val = (1-THETA_B)*gamma_prop(qz1,K,Z,THETA_B,XI,ETA,b,C);
+        gammaz_kval  = (1-THETA_B)*fjac('gamma_prop',...
+                                            [2,1],...
+                                            qz1,K,Z,THETA_B,XI,ETA,b,C);
+        
+    case 'nb'
+        % Monetary trades
+        gval        = g_nash(q,K,Z,THETA_B,XI,ETA,b,C);
+        g_qval      = g_nash_q(q,K,Z,THETA_B,XI,ETA,b,C);
+        g_kval      = g_nash_k(q,K,Z,THETA_B,XI,ETA,b,C);
+        g_qqval     = fjac('g_nash_q',[1,1],q,K,Z,THETA_B,XI,ETA,b,C);
+        g_qkval     = fjac('g_nash_q',[2,1],q,K,Z,THETA_B,XI,ETA,b,C);
+        gamma_val   = (1-THETA_B)*gamma_nash(q,K,Z,THETA_B,XI,ETA,b,C);
+        gamma_qval  = (1-THETA_B)*fjac('gamma_nash',...
+                                            [1,1],...
+                                            q,K,Z,THETA_B,XI,ETA,b,C);
+        gamma_kval  = (1-THETA_B)*fjac('gamma_nash',...
+                                            [2,1],...
+                                            q,K,Z,THETA_B,XI,ETA,b,C);
+                                        
+        % Credit trades
+        gammaz_val = (1-THETA_B)*gamma_prop(qz1,K,Z,THETA_B,XI,ETA,b,C);
+        gammaz_kval  = (1-THETA_B)*fjac('gamma_prop',...
+                                            [2,1],...
+                                            qz1,K,Z,THETA_B,XI,ETA,b,C);
+    otherwise
+        disp('Unspecified Protocol. Check protocol belongs to {pt,pb,nb}.')
+end
+
+
+% Nominal interest rate level
+Nom_IntRate = ( u_qval /g_qval - 1)*(SIGMA*KAPPA); % This is i
+
+% Set up the M matrix
+
+% Row #1 entries, M(1,:):
+m11 = SIGMA*KAPPA*(g_qval*u_qqval - u_qval*g_qqval);  % dq
+m12 = SIGMA*KAPPA*(u_qval*g_qkval/(g_qval)^2);        % dK
+m13 = 0;                                              % dH
+
+% Row #2 entries, M(2,:):
+m21 = -SIGMA*KAPPA*(1+TAU_X)*gamma_qval/U_Xval;       % dq
+
+    REL_PRICE = THETA*(OMEGA_I^((EPSILON-1)/EPSILON));
+    m22t1 = REL_PRICE*F_KK*(1-TAU_K) ...
+                        - SIGMA*KAPPA*(1+TAU_X)*gamma_kval/U_Xval;
+    m22t2 = (SIGMA*KAPPA*(1+TAU_X)*U_XXval/(U_Xval^2)) ...
+          *( (1-TAU_H)*REL_PRICE*F_KK*KAPPA*gamma_val/(A*(1+TAU_X)) ...
+             + (1-KAPPA)*gammaz_val );
+    m22t3 = -(SIGMA*KAPPA*(1+TAU_X)/U_Xval)*(1-KAPPA)*gammaz_kval;
+
+m22 = m22t1 + m22t2 + m22t3;
+
+    m23t1 = (1-TAU_K)*REL_PRICE*F_KH;
+    m23t2 = (SIGMA*KAPPA*(1+TAU_X)*U_XXval/(U_Xval^2)) ...
+               *(1-TAU_H)*REL_PRICE*F_KH/(A*(1+TAU_X)) ...
+                *( KAPPA*gamma_val + (1-KAPPA)*gammaz_val );                  
+m23 = m23t1 + m23t2;
+
+% Row #3 entries, M(3,:):
+m31 = 0;
+m32 = U_Xval + F_HK + U_XXval*F_H*( OMEGA_I/OMEGA_F - ...
+        ((1-ALFA)*TAU_H + ALFA*TAU_K)*REL_PRICE*F_K - DELTA*(1-TAU_K) )...
+                                                                /(1+TAU_X);
+m33 = U_Xval*F_HH + (F_H^2)*U_XXval*( OMEGA_I/OMEGA_F ...
+                     - ((1-ALFA)*TAU_H + ALFA*TAU_K)*REL_PRICE )/(1+TAU_X);
+
+M = [ m11, m12, m13;
+      m21, m22, m23;
+      m31, m32, m33 ];
+  
+% dy = (dq, dK, dH)
+dy_di = M\[1; 1; 0];
+
+dq_di = dy_di(1); % dq/di
+dK_di = dy_di(2); % dK/di
+dH_di = dy_di(3); % dH/di
+
+m_elasticity = (g_qval*dq_di + g_kval*dK_di)*(Nom_IntRate/gval) ...
+                + (F_HH*dH_di + F_HK*dK_di)*(Nom_IntRate/F_H) ...
+                + 0; % Note: 
+            
+disp('Steady state nominal interest rate = ')
+disp(Nom_IntRate)
+
+
+
+
+
+
+

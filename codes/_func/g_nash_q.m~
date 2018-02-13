@@ -1,0 +1,21 @@
+function [ g_q_val ] = g_nash_q(q,K,Z,BTHETA,PHI,ETA,b,C)
+
+% GAMMA_PROP.M
+% -------------------------------------------------------------------------
+% Derivative function g_q in proportional bargaining version.
+% BTHETA is bargaining power of buyer.
+% -----------------------------------------------------------------------
+% (c) 2009 - , Timothy Kam. Email: mortheus@gmail.com
+% -----------------------------------------------------------------------
+%
+% See also U_Q, C_Q, G_PROP, GAMMA_PROP
+
+
+g_q_val = (1-BTHETA)*u_q(q,ETA,b,C) + BTHETA*c_q(q/Z,K,PHI)/Z;
+
+numerator = BTHETA*cost(q/Z,K,PHI)*u_q(q,ETA,b,C) ...
+                + (1-BTHETA)*util(q,ETA,b,C)*c_q(q/Z,K,PHI)/Z;
+                                
+denominator = BTHETA*u_q(q,ETA,b,C) + (1-BTHETA)*c_q(q/Z,K,PHI)/Z;
+
+gnash = numerator / denominator;
